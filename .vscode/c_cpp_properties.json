@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/utk/mobi_ws/install/mobi_controller/include/**",
+        "/home/utk/mobi_ws/install/mobi_planning/include/**",
+        "/home/utk/mobi_ws/install/mobi_msgs/include/**",
+        "/home/utk/mobi_ws/install/mobi_motion/include/**",
+        "/home/utk/mobi_ws/install/mobi_localization/include/**",
+        "/home/utk/mobi_ws/install/mobi_mapping/include/**",
+        "/home/utk/mobi_ws/install/mobi_firmware/include/**",
+        "/home/utk/microros_ws/install/micro_ros_agent/include/**",
+        "/home/utk/microros_ws/install/micro_ros_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/utk/franka_tic_tac_toe_ws/src/panda_bringup/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

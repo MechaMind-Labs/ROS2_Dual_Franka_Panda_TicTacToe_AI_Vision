@@ -1,0 +1,84 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100 # Hz
+
+    panda_1_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    panda_1_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    panda_2_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    panda_2_gripper_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+panda_1_arm_controller:
+  ros__parameters:
+    joints:
+      - panda_1_joint1
+      - panda_1_joint2
+      - panda_1_joint3
+      - panda_1_joint4
+      - panda_1_joint5
+      - panda_1_joint6
+      - panda_1_joint7
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
+panda_1_gripper_controller:
+  ros__parameters:
+    joints:
+      - panda_1_finger_joint1
+      - panda_1_finger_joint2
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
+panda_2_arm_controller:
+  ros__parameters:
+    joints:
+      - panda_2_joint1
+      - panda_2_joint2
+      - panda_2_joint3
+      - panda_2_joint4
+      - panda_2_joint5
+      - panda_2_joint6
+      - panda_2_joint7
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true
+
+panda_2_gripper_controller:
+  ros__parameters:
+    joints:
+      - panda_2_finger_joint1
+      - panda_2_finger_joint2
+
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+
+    open_loop_control: true
+    allow_integration_in_goal_trajectories: true

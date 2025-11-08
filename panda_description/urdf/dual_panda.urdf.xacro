@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="dual_panda">
+
+  <!-- Launch argument for Gazebo version -->
+  <xacro:arg name="is_ignition" default="true"/>
+
+  <!-- World Link -->
+  <link name="world"/>
+
+  <!-- Include materials -->
+  <xacro:include filename="$(find panda_description)/urdf/materials.xacro" />
+
+  <!-- Include the panda arm macro -->
+  <xacro:include filename="$(find panda_description)/urdf/panda_arm.xacro"/>
+
+  <xacro:include filename="$(find panda_description)/urdf/sensors.xacro" />
+
+  <!-- Include gazebo ros2_control plugin -->
+  <xacro:include filename="$(find panda_description)/urdf/gazebo.xacro"/>
+
+  <!-- Include ros2_control (if ros2control.xacro is available) -->
+  <xacro:include filename="$(find panda_description)/urdf/ros2control.xacro"/>
+
+  <xacro:include filename="$(find panda_description)/urdf/tic_tac_board.xacro"/>
+
+  <!-- First Panda Robot (left side, facing right) -->
+  <xacro:panda_arm arm_id="panda_1" parent="world" is_ignition="$(arg is_ignition)">
+    <origin xyz="0 0.7 0.35" rpy="0 0 -1.5708"/>
+  </xacro:panda_arm>
+  
+  <!-- Second Panda Robot (right side, facing left) -->
+  <xacro:panda_arm arm_id="panda_2" parent="world" is_ignition="$(arg is_ignition)">
+    <origin xyz="0 -0.7 0.35" rpy="0 0 1.5708"/>
+  </xacro:panda_arm>
+
+</robot>

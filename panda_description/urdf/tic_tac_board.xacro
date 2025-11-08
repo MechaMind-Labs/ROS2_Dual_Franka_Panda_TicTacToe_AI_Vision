@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Tic_Tac_Toe Board fixed on table wrt to world -->
+    <link name="tic_tac_toe_board_link">
+        <inertial>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <mass value="0.1"/>
+            <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+        </inertial>
+        <visual>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://panda_description/meshes/visual/tic_tac_toe_board_150.stl" scale="0.0006 0.0006 0.0006"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+        <collision>
+            <origin xyz="0 0 0" rpy="0.0 0.0 0.0"/>
+            <geometry>
+                <mesh filename="package://panda_description/meshes/collision/tic_tac_toe_board_150.stl" scale="0.0006 0.0006 0.0006"/>
+            </geometry>
+            <material name="red"/>
+        </collision>
+    </link>
+    
+    <joint name="tic_tac_board_joint" type="fixed">
+        <origin xyz="0.0 0 0.36" rpy="0.0 0.0 0.0"/>
+        <parent link="world"/>
+        <child link="tic_tac_toe_board_link"/>
+    </joint>
+
+</robot>

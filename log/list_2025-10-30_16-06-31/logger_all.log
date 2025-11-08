@@ -1,0 +1,86 @@
+[0.107s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/utk/franka_tic_tac_toe_ws/src', '--log-base', '/dev/null']
+[0.107s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/utk/franka_tic_tac_toe_ws/src', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x719cfeb38430>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x719cfeaa4730>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x719cfeaa4730>>)
+[0.325s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.326s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.326s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.326s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.326s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.326s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/utk/franka_tic_tac_toe_ws/src', '/home/utk/franka_tic_tac_toe_ws/src/--log-base', '/dev/null'
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'ignore'
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'ignore_ament_install'
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['colcon_pkg']
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'colcon_pkg'
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['colcon_meta']
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'colcon_meta'
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['ros']
+[0.326s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'ros'
+[0.336s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['cmake', 'python']
+[0.336s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'cmake'
+[0.336s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'python'
+[0.336s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extensions ['python_setup_py']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src) by extension 'python_setup_py'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/log) by extension 'ignore'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/log) ignored
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extension 'ignore'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extension 'ignore_ament_install'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extensions ['colcon_pkg']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extension 'colcon_pkg'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extensions ['colcon_meta']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extension 'colcon_meta'
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extensions ['ros']
+[0.337s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_bringup) by extension 'ros'
+[0.339s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/panda_bringup' with type 'ros.ament_cmake' and name 'panda_bringup'
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extension 'ignore'
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extension 'ignore_ament_install'
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extensions ['colcon_pkg']
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extension 'colcon_pkg'
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extensions ['colcon_meta']
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extension 'colcon_meta'
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extensions ['ros']
+[0.340s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_controller) by extension 'ros'
+[0.341s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/panda_controller' with type 'ros.ament_cmake' and name 'panda_controller'
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extension 'ignore'
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extension 'ignore_ament_install'
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extensions ['colcon_pkg']
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extension 'colcon_pkg'
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extensions ['colcon_meta']
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extension 'colcon_meta'
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extensions ['ros']
+[0.341s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_description) by extension 'ros'
+[0.343s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/panda_description' with type 'ros.ament_cmake' and name 'panda_description'
+[0.343s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extension 'ignore'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extension 'ignore_ament_install'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extensions ['colcon_pkg']
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extension 'colcon_pkg'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extensions ['colcon_meta']
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extension 'colcon_meta'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extensions ['ros']
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_moveit) by extension 'ros'
+[0.344s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/panda_moveit' with type 'ros.ament_cmake' and name 'panda_moveit'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extension 'ignore'
+[0.344s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extension 'ignore_ament_install'
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extensions ['colcon_pkg']
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extension 'colcon_pkg'
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extensions ['colcon_meta']
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extension 'colcon_meta'
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extensions ['ros']
+[0.345s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/panda_vision) by extension 'ros'
+[0.346s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/panda_vision' with type 'ros.ament_python' and name 'panda_vision'
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extension 'ignore'
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extension 'ignore_ament_install'
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extensions ['colcon_pkg']
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extension 'colcon_pkg'
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extensions ['colcon_meta']
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extension 'colcon_meta'
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extensions ['ros']
+[0.346s] colcon.colcon_core.package_identification Level 1 _identify(/home/utk/franka_tic_tac_toe_ws/src/pymoveit2) by extension 'ros'
+[0.347s] colcon.colcon_core.package_identification DEBUG Package '/home/utk/franka_tic_tac_toe_ws/src/pymoveit2' with type 'ros.ament_cmake' and name 'pymoveit2'
+[0.347s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
