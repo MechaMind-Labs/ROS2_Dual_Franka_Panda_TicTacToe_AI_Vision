@@ -58,7 +58,7 @@ ROS 2 Humble · MoveIt 2 · pymoveit2 · ros2_control · Gazebo Fortress (`ros_g
 ```bash
 # Ubuntu 22.04, ROS 2 Humble
 mkdir -p ~/ttt_ws/src && cd ~/ttt_ws/src
-git clone https://github.com/MechaMind-Labs/ROS2_Dual_Franka_Panda_TicTacToe_AI_Vision.git .
+git clone https://github.com/MechaMind-Labs/dual-franka-tic-tac-toe.git .
 cd ~/ttt_ws && rosdep install --from-paths src --ignore-src -r -y
 pip install google-generativeai
 colcon build --symlink-install && source install/setup.bash
@@ -71,14 +71,14 @@ Click a cell in the **Tic Tac Toe Board** window to play blue.
 
 ## Engineering notes
 
-- **Taught poses, not visual grasping.** Cube pick-ups and the nine cell placements are stored joint configurations; the camera reads and displays the board but does not guide the grasp. Vision-guided placement is the natural next step, and the [SCARA cell](https://github.com/Curious-Utkarsh/ROS2_SCARA_WS) does vision-guided picking.
+- **Taught poses, not visual grasping.** Cube pick-ups and the nine cell placements are stored joint configurations; the camera reads and displays the board but does not guide the grasp. Vision-guided placement is the natural next step, and the [SCARA cell](https://github.com/Curious-Utkarsh/scara-pick-and-place) does vision-guided picking.
 - **An LLM with guard rails.** A language model alone can return an illegal or weak move, so its answer is validated and overridden when a rule check finds a win or a necessary block.
 
 ## Related
 
-- [Franka colour sorting](https://github.com/MechaMind-Labs/Franka_Panda_Color_Sorting_Robot) — single-arm vision pick-and-place that came before this
-- [SCARA conveyor cell](https://github.com/Curious-Utkarsh/ROS2_SCARA_WS) — vision-guided picking on real hardware
-- [UR5 gesture pick-and-place](https://github.com/MechaMind-Labs/UR5_PICK_AND_PLACE_MEDIAPIPE_ROS2) — teleoperated manipulation with MediaPipe
+- [Franka colour sorting](https://github.com/MechaMind-Labs/franka-color-sorting-robot) — single-arm vision pick-and-place that came before this
+- [SCARA conveyor cell](https://github.com/Curious-Utkarsh/scara-pick-and-place) — vision-guided picking on real hardware
+- [UR5 gesture pick-and-place](https://github.com/MechaMind-Labs/ur5-gesture-pick-and-place) — teleoperated manipulation with MediaPipe
 
 ## Credits
 
