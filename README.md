@@ -13,10 +13,12 @@ I designed the board and cubes in Fusion 360 and built the description, controll
 
 <table>
 <tr>
-<td align="center"><a href="https://youtu.be/3YFORZAgRXA"><img src="https://img.youtube.com/vi/3YFORZAgRXA/hqdefault.jpg" width="320" alt="Human vs AI"></a><br><sub><b>Human vs AI</b> — the current version</sub></td>
+<td align="center"><a href="https://youtu.be/3YFORZAgRXA"><img src="https://img.youtube.com/vi/3YFORZAgRXA/hqdefault.jpg" width="320" alt="Human vs AI"></a><br><sub><b>Human vs AI</b> — the newer version</sub></td>
 <td align="center"><a href="https://youtu.be/7btZoLp-t94"><img src="https://img.youtube.com/vi/7btZoLp-t94/hqdefault.jpg" width="320" alt="Human vs Human"></a><br><sub><b>Human vs Human</b> — the earlier click-to-play version</sub></td>
 </tr>
 </table>
+
+Playlist: [ROS 2 Projects](https://www.youtube.com/playlist?list=PLVjFk3hP8Wm4)
 
 Build log on LinkedIn: [the idea](https://www.linkedin.com/posts/kumar-utkarsh-124aab227_robotics-ros2-opencv-ugcPost-7390068075070603264-xOhe/) (31 Oct 2025) · [both arms hovering over every cell](https://www.linkedin.com/posts/kumar-utkarsh-124aab227_robotics-ros2-moveit2-ugcPost-7390694157771714560-naJZ/) (2 Nov) · [moves commanded from the terminal](https://www.linkedin.com/posts/kumar-utkarsh-124aab227_robotics-ros2-moveit2-ugcPost-7391400845743046656-AVt-/) (4 Nov) · [click-to-play GUI](https://www.linkedin.com/posts/kumar-utkarsh-124aab227_robotics-ros2-opencv-ugcPost-7391835641292099584-77qh/) (5 Nov) · [AI opponent](https://www.linkedin.com/posts/kumar-utkarsh-124aab227_robotics-ros2-ai-ugcPost-7392438376219693056-w3oW/) (7 Nov) · [Instagram reel](https://www.instagram.com/reel/DavHfnBCBA4/)
 
